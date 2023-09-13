@@ -75,10 +75,19 @@ def game():
 ############## editing global variable ###################
 friends = 2
 def increase_friends():
-    #by using keyword 'global', we can 
+    #by using keyword 'global', we can access and update the value of globally declared variable anywhere
     global friends 
     friends += 1
     print(f"Friends value inside function: {friends}")
     
 increase_friends()
 print(f"Friends value outside function: {friends}")
+
+
+"""
+Connect with me on 
+[LinkedIn](www.linkedin.com/in/gunta-srikanth) 
+for more coding challenges, updates on my 100 days of learning journey.
+
+Stay tuned for tomorrow's coding challenge. Happy coding!
+"""
