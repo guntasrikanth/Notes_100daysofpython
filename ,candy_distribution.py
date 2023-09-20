@@ -49,21 +49,8 @@ def longestCommonPrefix(strs):
                         output += first_element[i]
         return output          
     
-strs = ["abcdefgh","abcefgh"]
-print(longestCommonPrefix(strs)) '''
+ '''
 
-class Solution:
-    def strStr(self, haystack: str, needle: str) -> int:
-        for i in range(len(haystack)-len(needle)+1): 
-            count = 0
-            index = i
-            for j in range(len(needle)):
-                if needle[j] == haystack[i]:
-                    i += 1
-                    count += 1
-            if count == len(needle):
-                return index
-        return -1
 
 
 
