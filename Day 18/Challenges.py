@@ -9,7 +9,7 @@ for i in range(4):
     timmy.left(90)
 
 screen = Screen()
-screen.exitonclick()
+screen.exitonclick() '''
 
 
 #------------- Draw a Dashed line -------------------
@@ -17,17 +17,18 @@ from turtle import Turtle, Screen
 timmy = Turtle()
 timmy.shape('turtle')
 for i in range(10):
-    # timmy.forward(10)
-    # timmy.color('white')
-    # timmy.forward(10)
-    # timmy.color('black')
+    timmy.forward(10)
+    timmy.color('white')
+    timmy.forward(10)
+    timmy.color('black')
 
-    timmy.forward(10)
-    timmy.penup('white')
-    timmy.forward(10)
-    timmy.pendown('black')
+    # timmy.forward(10)
+    # timmy.penup('white')
+    # timmy.forward(10)
+    # timmy.pendown('black')
 screen = Screen()
 screen.exitonclick()
+'''
 
 #------------- Draw a different angles -------------------
 from turtle import Turtle, Screen
@@ -49,6 +50,7 @@ for side in range(3,11):
 
 screen = Screen()
 screen.exitonclick()
+
 
 #------------- Random Walk-------------------
 
@@ -77,7 +79,7 @@ for _ in range(150):
 '''
 
 #------------- Spirograph -------------------
-
+'''
 import turtle
 import random
 timmy = turtle.Turtle()
@@ -101,3 +103,5 @@ def spirograph(angle):
 
 spirograph(5)
 screen.exitonclick()
+
+'''
