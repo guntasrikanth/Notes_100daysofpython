@@ -1,6 +1,6 @@
-# with open("weather_data.csv") as file:
-#     data = file.readlines()
-#     print(data)
+with open("weather_data.csv") as file:
+    data = file.readlines()
+    print(data)
 
 
 ######## working with csv files using csv module ###############
@@ -17,7 +17,7 @@
 
 import pandas
 
-data = pandas.read_csv("weather_data.csv")
+#data = pandas.read_csv("weather_data.csv")
 # temp_list = data["temp"].to_list()
 # count = 0
 # avg = (sum(temp_list) // len(temp_list))
